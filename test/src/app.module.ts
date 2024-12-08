@@ -6,7 +6,7 @@ import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
-
+    UsersModule,
     ConfigModule.forRoot({
       isGlobal: true, // variables de entorno disponibles globalmente en el proyecto
     }),
