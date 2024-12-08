@@ -1,11 +1,10 @@
-import { BadRequestException, Injectable, NotFoundException, UnauthorizedException } from '@nestjs/common';
+import { Injectable, NotFoundException, UnauthorizedException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Users } from './users.interface';
 import { createUserDto } from './dtos/create-users.dto';
 import * as bcrypt from 'bcrypt';
 import { updateUserPswDto } from './dtos/update-users.dto';
-import { ExceptionsHandler } from '@nestjs/core/exceptions/exceptions-handler';
 import { findUserDto } from './dtos/find-users.dto';
 
 @Injectable()
