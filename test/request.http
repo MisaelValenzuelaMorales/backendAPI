@@ -3,8 +3,8 @@ POST http://localhost:3000/users HTTP/1.1
 Content-Type: application/json
 
 {
-    "email": "misaelvalenzuela21@gmail.com",
-    "password": "Vale1234"
+    "email": "angelesarce34@gmail.com",
+    "password": "Arce1234"
 }
 
 
@@ -14,8 +14,8 @@ Content-Type: application/json
 
 {
     "email": "misaelvalenzuela21@gmail.com",
-    "password": "Misa9876",
-    "nuevaPassword": "Misa1234"
+    "password": "Misa1234",
+    "nuevaPassword": "Morales13"
 }
 
 ### Obtener datos del usuario
@@ -23,7 +23,7 @@ GET http://localhost:3000/users HTTP/1.1
 Content-Type: application/json
 
 {
-    "email": "misaelvalenzuela21@gmail.com"
+    "email": "angelesarce34@gmail.com"
 }
 
 ###Borrar datos de un usuario
@@ -39,6 +39,6 @@ POST http://localhost:3000/auth/login HTTP/1.1
 Content-Type: application/json
 
 {
-    "email": "misaelvalenzuela21@gmail.com",
-    "password": "Misa1234"
+    "email": "angelesarce34@gmail.com",
+    "password": "Arce1234"
 }
